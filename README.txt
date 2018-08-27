@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/alfie-b/pen/wxMvKx.
-
- 
+Portfolio website for a craftsman.
