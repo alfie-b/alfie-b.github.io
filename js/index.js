@@ -1,24 +1,12 @@
-// Softscroll
-$("#main-nav ul li a[href^='#']").on("click", function(e) {
-  e.preventDefault();
-  var hash = this.hash;
-  $("html, body").animate(
-    {
-      scrollTop: $(hash).offset().top
-    },
-    300,
-    function() {
-      window.location.hash = hash;
-    }
-  );
-});
-
 // Scrollspy settings
-var offset = 125;
+var offset = 68;
 $(".navbar li a").click(function(event) {
   event.preventDefault();
-  $($(this).attr("href"))[0].scrollIntoView();
-  scrollBy(0, -offset);
+  $($(this).attr("href"))[0].scrollIntoView({ 
+    behavior: 'smooth',
+    block: 'start',
+  });
+  div.scrollBy(0, offset);
 });
 
 // Map
