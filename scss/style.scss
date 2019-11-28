@@ -32,6 +32,7 @@ nav {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  padding: 6rem 2rem;
   h1 {
     margin-top: 3rem;
   }
@@ -74,7 +75,7 @@ nav {
 }
 
 .contact {
-  padding: 1.5rem 0 0.5rem 0;
+  padding: 2rem 0;
   background: #fdf6e4;
   .invalid-feedback {
     text-shadow: none;
